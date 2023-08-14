@@ -1,0 +1,42 @@
+
+.run{
+    display: flex;
+  width: 30%;
+  flex-direction: column;
+  /* justify-content: center; */
+  padding: 3rem;
+  align-items: center;
+    gap: 3rem;
+    /* margin:4rem; */
+}
+textarea{
+   padding: 1rem;
+    width: 100%;
+    background-color: silver;
+    font-size: 2rem;
+  }
+.long{
+    font-size: 5rem;
+text-align: center;
+padding: 1rem;
+}
+input{
+    font-size: 2rem;
+    background-color: silver;
+}
+.lang-container{
+    font-size: 2rem;
+    background-color: silver;
+}
+.run-container{
+    background-color: rgb(133, 125, 125);
+}
+@media(max-width:521px){
+    .run{
+     display: flex;
+     flex-direction: column;
+    }
+    .lang-container{
+        width: 100%;
+    }
+  }
